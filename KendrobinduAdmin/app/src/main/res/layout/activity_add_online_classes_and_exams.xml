@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    tools:context=".AddOnlineClassesAndExams">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Online Class Link"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/education_level"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lecture for Class"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/online_class_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="Online class link" />
+
+    <EditText
+        android:id="@+id/online_exam_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="Online Exam link" />
+
+
+    <EditText
+        android:id="@+id/class_time"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Set time for class"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/set_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Class"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/curve_button"
+        android:layout_gravity="right"/>
+
+</LinearLayout>

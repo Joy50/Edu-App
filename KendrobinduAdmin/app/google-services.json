@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84232759087",
+    "firebase_url": "https://kendrobindu-f7690.firebaseio.com",
+    "project_id": "kendrobindu-f7690",
+    "storage_bucket": "kendrobindu-f7690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84232759087:android:02d0bb4bfb18e053c263da",
+        "android_client_info": {
+          "package_name": "com.joy50.kendrobinduadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84232759087-afn4t7qtjk6433fdotaq6eigfaomf9i7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZid39He2-kquLwir2rCrod-lB0gRz8fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84232759087-afn4t7qtjk6433fdotaq6eigfaomf9i7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetResultActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a file"
+        android:textSize="24dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/file_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="File location" />
+
+            <EditText
+                android:id="@+id/file_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="File Name" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/upload_result"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/upload" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/uploaded_result_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

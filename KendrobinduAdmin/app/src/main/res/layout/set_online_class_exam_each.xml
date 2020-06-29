@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="16dp"
+            app:srcCompat="@drawable/reminder" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lecture_for_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Lecture for class 5"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/exam_today"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Exam today!"
+                android:textColor="#8BC34A"/>
+
+            <TextView
+                android:id="@+id/time_of_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:30 AM"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/delete_class"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/trash" />
+    </LinearLayout>
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:background="?android:attr/listDivider" />
+</LinearLayout>

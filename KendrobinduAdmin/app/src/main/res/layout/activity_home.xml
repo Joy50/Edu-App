@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:id="@+id/add_student"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/curve_button"
+            android:elevation="3dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/student" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add New Students"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/set_online_class"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/curve_button"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/exam" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Set online class and exam"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/set_results"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/curve_button"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/result" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Set Results"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/review_assignments_home"
+            android:layout_width="30dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/curve_button"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:srcCompat="@drawable/review" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Review Assignments"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

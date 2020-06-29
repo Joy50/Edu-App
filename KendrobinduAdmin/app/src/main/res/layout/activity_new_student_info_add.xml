@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    tools:context=".NewStudentInfoAddActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Student"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Student's Name"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:layout_marginTop="4dp"
+        android:hint="Enter Students Study Level"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="@color/colorPrimary"
+        android:hint="Enter Students Email Address"
+        android:layout_marginTop="4dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="4dp"
+        android:hint="Set Password For The Email"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="16dp"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/curve_button"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
